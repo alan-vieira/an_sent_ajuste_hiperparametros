@@ -17,6 +17,15 @@ parameters = {'C':[1, 10, 100, 1000],
               'gamma':[1, 0.1, 0.001, 0.0001],
               'kernel':['linear', 'rbf']}
 ```
+
+E por meio de um pipeline informamdos o vetorizador, que nesse caso foi o Tfidf, seguido do modelo a ser avaliado.
+
+```python
+modelo = Pipeline(steps=[
+             ('vectorizer' , TfidfVectorizer()),
+            ('modelo', SVC())
+            ])
+```
                                                                                                             
 ## Ferramentas utilizadas
 - `Jupyter Notebook`
