@@ -39,7 +39,7 @@ Declarando os dados de treino para o GridSearchCV avaliar par rankear o melhor c
 clf.fit(X_train, y_train).best_score_
 ```
 
-Indo para a saída do treinamento, as vezes que o modelo será treinado está relacinado a multiplicação das quantidades dos parametros e das vezes que será aplicada a avaliação cruzada, que por padrão será cinco. Tipo C possui quatro valores, gamma também possui quatro e kernel possui apenas dois.
+Indo para a saída do treinamento, as vezes que o modelo será treinado está relacinado a multiplicação das quantidades dos parametros e das vezes que será aplicada a avaliação cruzada, que por padrão será cinco. Tipo C possui quatro valores, gamma também possui quatro e kernel possui apenas dois, exibindo no final o melhor modelo.
 
 4 x 4 x 2 x 5 = 160
 
@@ -58,6 +58,9 @@ Fitting 5 folds for each of 32 candidates, totalling 160 fits
 [CV 1/5] END modelo__C=1, modelo__gamma=0.1, modelo__kernel=linear;, score=0.718 total time=  15.0s
 [CV 2/5] END modelo__C=1, modelo__gamma=0.1, modelo__kernel=linear;, score=0.714 total time=  15.1s
 [CV 3/5] ...
+[CV 4/5] END modelo__C=1000, modelo__gamma=0.0001, modelo__kernel=rbf;, score=0.673 total time=  22.4s
+[CV 5/5] END modelo__C=1000, modelo__gamma=0.0001, modelo__kernel=rbf;, score=0.663 total time=  21.6s
+0.7895450835572672
 ```
 
 ## Ferramentas utilizadas
