@@ -26,7 +26,19 @@ modelo = Pipeline(steps=[
             ('modelo', SVC())
             ])
 ```
-                                                                                                            
+ 
+ Agora instanciamos o GridSearchCV como clf, declarando o modelo, os parametros, no refit informamos a métrica de avaliação que aparecerá no rankeamento e o verbose é uma opição aparecer o andamento do treinamento.
+ 
+ ```python
+clf = GridSearchCV(modelo, parameters, refit = 'accuracy', verbose=3)
+```
+
+Declarando os dados de treino para o GridSearchCV avaliar par rankear o melhor conjundo de parâmetros.
+
+ ```python
+clf.fit(X_train, y_train).best_score_
+```
+
 ## Ferramentas utilizadas
 - `Jupyter Notebook`
 - `Python`
