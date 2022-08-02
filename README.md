@@ -41,8 +41,7 @@ clf.fit(X_train, y_train).best_score_
 
 Indo para a saída do treinamento, as vezes que o modelo será treinado está relacinado a multiplicação das quantidades dos parametros e das vezes que será aplicada a avaliação cruzada, que por padrão será cinco. Tipo C possui quatro valores, gamma também possui quatro e kernel possui apenas dois.
 
-4 x 4 x 2 = 32
-32 x 5 = 160
+4 x 4 x 2 x 5 = 160
 
 ```python
 Fitting 5 folds for each of 32 candidates, totalling 160 fits
