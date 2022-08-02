@@ -39,6 +39,21 @@ Declarando os dados de treino para o GridSearchCV avaliar par rankear o melhor c
 clf.fit(X_train, y_train).best_score_
 ```
 
+Fitting 5 folds for each of 32 candidates, totalling 160 fits
+[CV 1/5] END modelo__C=1, modelo__gamma=1, modelo__kernel=linear;, score=0.718 total time=  24.1s
+[CV 2/5] END modelo__C=1, modelo__gamma=1, modelo__kernel=linear;, score=0.714 total time=  18.8s
+[CV 3/5] END modelo__C=1, modelo__gamma=1, modelo__kernel=linear;, score=0.712 total time=  15.0s
+[CV 4/5] END modelo__C=1, modelo__gamma=1, modelo__kernel=linear;, score=0.731 total time=  15.2s
+[CV 5/5] END modelo__C=1, modelo__gamma=1, modelo__kernel=linear;, score=0.729 total time=  15.1s
+[CV 1/5] END modelo__C=1, modelo__gamma=1, modelo__kernel=rbf;, score=0.787 total time=  19.8s
+[CV 2/5] END modelo__C=1, modelo__gamma=1, modelo__kernel=rbf;, score=0.771 total time=  21.4s
+[CV 3/5] END modelo__C=1, modelo__gamma=1, modelo__kernel=rbf;, score=0.768 total time=  19.6s
+[CV 4/5] END modelo__C=1, modelo__gamma=1, modelo__kernel=rbf;, score=0.793 total time=  19.9s
+[CV 5/5] END modelo__C=1, modelo__gamma=1, modelo__kernel=rbf;, score=0.788 total time=  19.9s
+[CV 1/5] END modelo__C=1, modelo__gamma=0.1, modelo__kernel=linear;, score=0.718 total time=  15.0s
+[CV 2/5] END modelo__C=1, modelo__gamma=0.1, modelo__kernel=linear;, score=0.714 total time=  15.1s
+[CV 3/5] END modelo__C=1, modelo__gamma=0.1, modelo__kernel=linear;, score=0.712 total time=  15.0s
+
 ## Ferramentas utilizadas
 - `Jupyter Notebook`
 - `Python`
