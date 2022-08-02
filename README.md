@@ -63,6 +63,8 @@ Fitting 5 folds for each of 32 candidates, totalling 160 fits
 0.7895450835572672
 ```
 
+Salvos em um dataframe e rankeados pelo score, o nono modelo foi o vencedor, como podemos observar. Com uma acurácia de 0.789545, 'C': 10, 'gamma': 1, 'kernel': 'rbf', esse modelo foi o que se saiu melhor.
+
 ```python
 params	rank_test_score	mean_test_score
 9	{'modelo__C': 10, 'modelo__gamma': 1, 'modelo__kernel': 'rbf'}	1	0.789545
