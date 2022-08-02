@@ -8,7 +8,7 @@ Ajuste de hiperparâmetros de modelos utilizados para classificação de sentime
 - `Funcionalidade 2`: A partir de algumas avaliações, gera um hanking com a melhor configuração de hiperparâmetros.
 
 ## Aplicação
-
+O GridSearchCV é uma técnica que combina exaustivamente todos os hiperparâmentos que passamos, referentes ao modelo, para que, por meio de uma avaliação cruzada encontremos o melhor ajuste.
                                                                                                             
 ## Ferramentas utilizadas
 - `Jupyter Notebook`
