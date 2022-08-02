@@ -63,6 +63,23 @@ Fitting 5 folds for each of 32 candidates, totalling 160 fits
 0.7895450835572672
 ```
 
+```python
+params	rank_test_score	mean_test_score
+9	{'modelo__C': 10, 'modelo__gamma': 1, 'modelo__kernel': 'rbf'}	1	0.789545
+25	{'modelo__C': 1000, 'modelo__gamma': 1, 'modelo__kernel': 'rbf'}	2	0.789077
+17	{'modelo__C': 100, 'modelo__gamma': 1, 'modelo__kernel': 'rbf'}	2	0.789077
+1	{'modelo__C': 1, 'modelo__gamma': 1, 'modelo__kernel': 'rbf'}	4	0.781389
+19	{'modelo__C': 100, 'modelo__gamma': 0.1, 'modelo__kernel': 'rbf'}	5	0.769756
+27	{'modelo__C': 1000, 'modelo__gamma': 0.1, 'modelo__kernel': 'rbf'}	6	0.768353
+11	{'modelo__C': 10, 'modelo__gamma': 0.1, 'modelo__kernel': 'rbf'}	7	0.745489
+12	{'modelo__C': 10, 'modelo__gamma': 0.001, 'modelo__kernel': 'linear'}	8	0.744820
+8	{'modelo__C': 10, 'modelo__gamma': 1, 'modelo__kernel': 'linear'}	8	0.744820
+10	{'modelo__C': 10, 'modelo__gamma': 0.1, 'modelo__kernel': 'linear'}	8	0.744820
+14	{'modelo__C': 10, 'modelo__gamma': 0.0001, 'modelo__kernel': 'linear'}	8	0.744820
+22	{'modelo__C': 100, 'modelo__gamma': 0.0001, 'modelo__kernel': 'linear'}	12	0.73833
+...
+```
+
 ## Ferramentas utilizadas
 - `Jupyter Notebook`
 - `Python`
