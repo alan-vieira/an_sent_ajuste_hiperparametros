@@ -10,7 +10,7 @@ Ajuste de hiperparâmetros de modelos utilizados para classificação de sentime
 ## Aplicação
 O GridSearchCV é uma técnica que combina exaustivamente todos os hiperparâmentos que passamos, referentes ao modelo, para que, por meio de uma avaliação cruzada encontremos o melhor ajuste.
 
-Vamos tomar com exemplo o classificador Support Vector Classifier, onde passamos os parametros C, gamma e kernel.
+Tomando o classificador Support Vector Classifier como exemplo, temos os parametros C, gamma e kernel, onde passamos alguns potenciais valores, como podemos ver em seguida.
 
 ```python
 parameters = {'C':[1, 10, 100, 1000],
