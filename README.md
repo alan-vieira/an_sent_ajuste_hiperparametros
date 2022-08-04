@@ -102,6 +102,11 @@ Após baixado, para o funcionamento correto da aplicação as seguintes dependê
 
 - `pandas`
 - `nltk`
+- `pip setuptools wheel`
+- `spacy`
+- `pt_core_news_sm`
+- `simplemma`
+- `searchgrid`
 
 ## Autor
 
