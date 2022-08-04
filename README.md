@@ -98,6 +98,15 @@ params	rank_test_score	mean_test_score
 Você pode acessar os códigos fonte dos projetos ou [baixá-los](https://github.com/alan-vieira/an_sent_ajuste_hiperparametros/archive/refs/heads/main.zip).
 
 [Gradient Boosting](https://github.com/alan-vieira/an_sent_ajuste_hiperparametros/blob/main/gradient_boosting_tfidf_oversampling.ipynb)
+[kNN](https://github.com/alan-vieira/an_sent_ajuste_hiperparametros/blob/main/knn_tfidf_oversampling.ipynb)
+[Logistic Regression](https://github.com/alan-vieira/an_sent_ajuste_hiperparametros/blob/main/logistic_regression_tfidf_oversampling.ipynb)
+[MLP](https://github.com/alan-vieira/an_sent_ajuste_hiperparametros/blob/main/mlp_tfidf_oversampling.ipynb)
+[MultinomialNB](https://github.com/alan-vieira/an_sent_ajuste_hiperparametros/blob/main/multinomialnb_tfidf_oversampling.ipynb)
+[Passive Aggressive](https://github.com/alan-vieira/an_sent_ajuste_hiperparametros/blob/main/passive_aggressive_tfidf_oversampling.ipynb)
+[Random Forest](https://github.com/alan-vieira/an_sent_ajuste_hiperparametros/blob/main/random_forest_tfidf_oversampling.ipynb)
+[SGD](https://github.com/alan-vieira/an_sent_ajuste_hiperparametros/blob/main/sgd_tfidf_oversampling.ipynb)
+[SVC](https://github.com/alan-vieira/an_sent_ajuste_hiperparametros/blob/main/svc_tfidf_oversampling.ipynb)
+[XGB](https://github.com/alan-vieira/an_sent_ajuste_hiperparametros/blob/main/xgb_tfidf_oversampling.ipynb)
 
 ## Abrir e rodar o projeto
 Após baixado, para o funcionamento correto da aplicação as seguintes dependêcias deverão ser instaladas.
