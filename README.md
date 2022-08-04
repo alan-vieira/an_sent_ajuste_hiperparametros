@@ -95,7 +95,8 @@ params	rank_test_score	mean_test_score
 
 ## Acesso ao projeto
 
-Você pode acessar o [código fonte do projeto]() ou [baixá-lo](https://github.com/alan-vieira/an_sent_ajuste_hiperparametros/archive/refs/heads/main.zip).
+Você pode acessar os códigos fonte dos projetos ou [baixá-los](https://github.com/alan-vieira/an_sent_ajuste_hiperparametros/archive/refs/heads/main.zip).
+[Gradient Boosting](https://github.com/alan-vieira/an_sent_ajuste_hiperparametros/blob/main/gradient_boosting_tfidf_oversampling.ipynb)
 
 ## Abrir e rodar o projeto
 Após baixado, para o funcionamento correto da aplicação as seguintes dependêcias deverão ser instaladas.
