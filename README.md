@@ -33,13 +33,13 @@ modelo = Pipeline(steps=[
 clf = GridSearchCV(modelo, parameters, refit = 'accuracy', verbose=3)
 ```
 
-Declarando os dados de treino para o GridSearchCV avaliar par rankear o melhor conjundo de parâmetros.
+Declarando os dados de treino (X_train e y_train) para o GridSearchCV avaliar para rankear o melhor conjundo de parâmetros.
 
  ```python
 clf.fit(X_train, y_train).best_score_
 ```
 
-Indo para a saída do treinamento, as vezes que o modelo será treinado está relacinado a multiplicação das quantidades dos parametros e das vezes que será aplicada a avaliação cruzada, que por padrão será cinco. Tipo C possui quatro valores, gamma também possui quatro e kernel possui apenas dois, exibindo no final o melhor modelo.
+Indo para a saída do treinamento, as vezes que o modelo será treinado está relacinado a multiplicação das quantidades dos parametros e das vezes que será aplicada a avaliação cruzada, que por padrão será cinco. Tipo C possui quatro valores (1, 10, 100 e 1000), gamma também possui quatro (1, 0.1, 0.001 e 0.0001) e kernel possui apenas dois ('linear'e 'rbf'), exibindo no final o melhor modelo.
 
 4 x 4 x 2 x 5 = 160
 
@@ -57,13 +57,13 @@ Fitting 5 folds for each of 32 candidates, totalling 160 fits
 [CV 5/5] END modelo__C=1, modelo__gamma=1, modelo__kernel=rbf;, score=0.788 total time=  19.9s
 [CV 1/5] END modelo__C=1, modelo__gamma=0.1, modelo__kernel=linear;, score=0.718 total time=  15.0s
 [CV 2/5] END modelo__C=1, modelo__gamma=0.1, modelo__kernel=linear;, score=0.714 total time=  15.1s
-[CV 3/5] ...
+...
 [CV 4/5] END modelo__C=1000, modelo__gamma=0.0001, modelo__kernel=rbf;, score=0.673 total time=  22.4s
 [CV 5/5] END modelo__C=1000, modelo__gamma=0.0001, modelo__kernel=rbf;, score=0.663 total time=  21.6s
 0.7895450835572672
 ```
 
-Salvos em um dataframe e rankeados pelo score, o nono modelo foi o vencedor, como podemos observar. Com uma acurácia de 0.789545, 'C': 10, 'gamma': 1, 'kernel': 'rbf', esse modelo foi o que se saiu melhor.
+Salvos em um dataframe e rankeados pelo score, seguindo no nosso exemplo, o nono modelo foi o vencedor, como podemos observar. Com uma acurácia de 0.789545, 'C': 10, 'gamma': 1, 'kernel': 'rbf', esse modelo foi o que se saiu melhor.
 
 ```python
 params	rank_test_score	mean_test_score
