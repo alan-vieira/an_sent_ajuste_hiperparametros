@@ -99,7 +99,7 @@ Você pode acessar os códigos fonte dos projetos ou [baixá-los](https://github
 
 [Gradient Boosting](https://github.com/alan-vieira/an_sent_ajuste_hiperparametros/blob/main/gradient_boosting_tfidf_oversampling.ipynb)
 
-[kNN](https://github.com/alan-vieira/an_sent_ajuste_hiperparametros/blob/main/knn_tfidf_oversampling.ipynb)
+[kNN (K-Nearest Neighbors)](https://github.com/alan-vieira/an_sent_ajuste_hiperparametros/blob/main/knn_tfidf_oversampling.ipynb)
 
 [Logistic Regression](https://github.com/alan-vieira/an_sent_ajuste_hiperparametros/blob/main/logistic_regression_tfidf_oversampling.ipynb)
 
