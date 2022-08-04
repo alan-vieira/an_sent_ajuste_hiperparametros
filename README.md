@@ -86,6 +86,12 @@ params	rank_test_score	mean_test_score
 - `Jupyter Notebook`
 - `Python`
 - `Sklearn`
+- `Matplotlib`
+- `Seaborn`
+- `nltk`
+- `re`
+- `Spacy`
+- `Simplemma`
 
 ## Acesso ao projeto
 
