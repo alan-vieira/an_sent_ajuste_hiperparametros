@@ -35,7 +35,15 @@ clf = GridSearchCV(modelo, parameters, refit='accuracy', verbose=3)
 
 O número total de treinamentos é o produto das combinações de parâmetros pelo número de folds da validação cruzada:
 
-4 (C) x 4 (gamma) x 2 (kernel) x 5 (folds) = 160 fits
+**4 (C) x 4 (gamma) x 2 (kernel) x 5 (folds) = 160 fits**
+
+## 📊 Resultados e Rankeamento
+
+O processo gera um ranking detalhado. No caso do SVC, o modelo vencedor utilizou:
+
+**Acurácia**: 0.7895
+
+**Parâmetros**: `{'C': 10, 'gamma': 1, 'kernel': 'rbf'}`
 
 ## Acesso ao projeto
 
