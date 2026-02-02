@@ -45,42 +45,32 @@ O processo gera um ranking detalhado. No caso do SVC, o modelo vencedor utilizou
 
 **Parâmetros**: `{'C': 10, 'gamma': 1, 'kernel': 'rbf'}`
 
-## Acesso ao projeto
+| Rank | Parâmetros (C, gamma, kernel)                     | Score (Mean Test) |
+|:-----|:--------------------------------------------------|------------------:|
+| 1º   | {'C': 10, 'gamma': 1, 'kernel': 'rbf'}            |            0.7895 |
+| 2º   | {'C': 1000, 'gamma': 1, 'kernel': 'rbf'}          |            0.7890 |
+| 3º   | {'C': 100, 'gamma': 1, 'kernel': 'rbf'}           |            0.7890 |
 
-Você pode acessar os códigos fonte dos projetos ou [baixá-los](https://github.com/alan-vieira/an_sent_ajuste_hiperparametros/archive/refs/heads/main.zip).
+## 📂 Modelos Otimizados neste Projeto
 
-[Gradient Boosting](https://github.com/alan-vieira/an_sent_ajuste_hiperparametros/blob/main/gradient_boosting_tfidf_oversampling.ipynb)
+Acesse os notebooks específicos para cada implementação:
 
-[kNN (K-Nearest Neighbors)](https://github.com/alan-vieira/an_sent_ajuste_hiperparametros/blob/main/knn_tfidf_oversampling.ipynb)
+[🔥 Gradient Boosting](https://github.com/alan-vieira/an_sent_ajuste_hiperparametros/blob/main/gradient_boosting_tfidf_oversampling.ipynb)
 
-[Logistic Regression](https://github.com/alan-vieira/an_sent_ajuste_hiperparametros/blob/main/logistic_regression_tfidf_oversampling.ipynb)
+[🌲 Random Forest](https://github.com/alan-vieira/an_sent_ajuste_hiperparametros/blob/main/random_forest_tfidf_oversampling.ipynb)
 
-[MLP (Multi Layer Perceptron)](https://github.com/alan-vieira/an_sent_ajuste_hiperparametros/blob/main/mlp_tfidf_oversampling.ipynb)
+[🤖 XGBoost](https://github.com/alan-vieira/an_sent_ajuste_hiperparametros/blob/main/xgb_tfidf_oversampling.ipynb)
 
-[MultinomialNB](https://github.com/alan-vieira/an_sent_ajuste_hiperparametros/blob/main/multinomialnb_tfidf_oversampling.ipynb)
+[📈 Logistic Regression](https://github.com/alan-vieira/an_sent_ajuste_hiperparametros/blob/main/logistic_regression_tfidf_oversampling.ipynb)
 
-[Passive Aggressive](https://github.com/alan-vieira/an_sent_ajuste_hiperparametros/blob/main/passive_aggressive_tfidf_oversampling.ipynb)
+[🧠 MLP (Rede Neural)](https://github.com/alan-vieira/an_sent_ajuste_hiperparametros/blob/main/mlp_tfidf_oversampling.ipynb)
 
-[Random Forest](https://github.com/alan-vieira/an_sent_ajuste_hiperparametros/blob/main/random_forest_tfidf_oversampling.ipynb)
+[👉 Veja todos os 10 modelos no repositório](https://github.com/alan-vieira/an_sent_ajuste_hiperparametros)
 
-[SGD (Stochastic Gradient Descent)](https://github.com/alan-vieira/an_sent_ajuste_hiperparametros/blob/main/sgd_tfidf_oversampling.ipynb)
+🛠️ Ferramentas
+`Python` • `Scikit-Learn` • `Pandas` • `Spacy` • `Simplemma` • `Matplotlib` • `Seaborn`
 
-[SVC (Support Vector Classification)](https://github.com/alan-vieira/an_sent_ajuste_hiperparametros/blob/main/svc_tfidf_oversampling.ipynb)
 
-[XGB (XGBoost)](https://github.com/alan-vieira/an_sent_ajuste_hiperparametros/blob/main/xgb_tfidf_oversampling.ipynb)
 
-## Abrir e rodar o projeto
-Após baixado, para o funcionamento correto da aplicação as seguintes dependêcias deverão ser instaladas.
 
-- `pandas`
-- `nltk`
-- `pip setuptools wheel`
-- `spacy`
-- `pt_core_news_sm`
-- `simplemma`
-- `searchgrid`
 
-## Autor
-
-| [<img src="https://avatars.githubusercontent.com/alan-vieira" width=115><br><sub>Alan Vieira</sub>](https://github.com/alan-vieira) |
-| :---: |
