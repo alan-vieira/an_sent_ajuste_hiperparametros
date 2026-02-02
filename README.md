@@ -67,8 +67,17 @@ Acesse os notebooks específicos para cada implementação:
 
 [👉 Veja todos os 10 modelos no repositório](https://github.com/alan-vieira/an_sent_ajuste_hiperparametros)
 
-🛠️ Ferramentas
+## 🛠️ Ferramentas
+
 `Python` • `Scikit-Learn` • `Pandas` • `Spacy` • `Simplemma` • `Matplotlib` • `Seaborn`
+
+## 👤 Autor
+
+**Alan Vieira** - *Engenheiro de Telecomunicações & Especialista em Dados*
+
+- [LinkedIn](https://www.linkedin.com/in/alansilvavieira)
+
+- [GitHub Portfólio](https://github.com/alan-vieira)
 
 
 
